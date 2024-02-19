@@ -1,140 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyTeam</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@500;700&display=swap" rel="stylesheet">
+  <title>MyTeam</title>
 </head>
 <body>
     <header>
-        <nav class="container nav">
+        <div class="header">
             <img class="logo" aria-label="my team" src="assets/logo.svg" alt="logo">
-            <ul>
-                <li class="link">
-                    <a href="index.html">home</a>
-                </li>
-                <li class="link">
-                    <a href="about.html">about</a>
-                </li>
-                <li>
-                    <a href="contact.html">contact us</a>
-                </li>
-            </ul>
-
-            <img class="hamburger" src="assets/icon-hamburger.svg" alt="hamburger-menu">
-        </nav>
-        <nav class="mobile-nav">
-            <ul>
-                <li>
-                    <a href="index.html">home</a>
-                </li>
-                <li>
-                    <a href="about.html">about</a>
-                </li>
-                <li>
-                    <a href="contact.html">contact us</a>
-                </li>
-            </ul>
-        </nav>
-
-        <section class="hero">
-            <div class="container">
-                <h1>Find the best <span>talent</span></h1>
-                <p>Finding the right people and building high performing teams can be hard. Most companies aren’t tapping into the abundance of global talent. We’re about to change that.</p>
+            <div class="hamburger-button"> <!-- split the 2 parts with opacity -->
+                <div class="bar"></div> 
             </div>
-        </section>
+            <nav>
+                <div class="links">
+                    <div class="website-info">
+                        <a href="index.html">home</a>
+                        <a href="about.html">about</a>
+                    </div>
+                    <a class="contact" href="contact.html">
+                        <button>contact us</button>
+                    </a>
+                </div>
+            </nav>
+        </div>
+
+        <hgroup class="description">
+            <h2>Find the best <span>talent</span></h2>
+            <p> Finding the right people and building high performing teams can be hard. Most companies aren't tapping into the abundance of global talent. We're about to change that. </p>
+        </hgroup>
     </header>
-    <main class="home">
-        <section class="container">
-            <h2>Build & manage distributed teams like no one else.</h2>
-            <div class="features">
-                <img src="assets/icon-person.svg" alt="person">
-                <h3>Experienced Individuals</h3>
-                <p>Our network is made up of highly experienced professionals who are passionate about what they do.</p>
-            </div>
-            <div class="features">
-                <img src="assets/icon-cog.svg" alt="cog">
-                <h3>Easy to Implement</h3>
-                <p>Our processes have been refined over years of implementation meaning our teams always deliver.</p>
-            </div>
-            <div class="features">
-                <img src="assets/icon-chart.svg" alt="chart">
-                <h3>Enhanced Productivity</h3>
-                <p>Our customized platform with in-built analytics helps you manage your distributed teams.</p>
-            </div>
-        </section>
-        <section class="stories">
+    <main>
+        <div class="above-main">
+            <h2>
+                <span>
+                    <hr>
+                </span>Build & manage distributed teams like no one else
+            </h2>
+            <ul class="features">
+                <li class="feature">
+                    <img src="assets/icon-person.svg" alt="person">
+                    <div class="feature-description">
+                        <h4>Experienced Individuals</h4>
+                        <p>Our network is made up of highly experienced professionals who are passionate about what they do</p>
+                    </div>
+                </li>
+                <li class="feature">
+                    <img src="assets/icon-cog.svg" alt="cog">
+                    <div class="feature-description">
+                        <h4>Easy to Implement</h4>
+                        <p>Our processes have been refined over years of implementation meaning our teams always deliver.</p>
+                    </div>
+                </li>
+                <li class="feature">
+                    <img src="assets/icon-chart.svg" alt="chart">
+                    <div class="feature-description">
+                        <h4>Enhanced Productivity</h4>
+                        <p>Our customised platform with in-built analytics helps you manage your distributed teams.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="down-main">
             <h2>Delivering real results for top companies. Some of our <span>success stories.</span></h2>
-            <section class="reviews">
-                <article class="review">
-                    <img src="assets/icon-quotes.svg" alt="quotes">
-                    <blockquote><p>“The team perfectly fit the specialized skill set required. They focused on the most essential features helping us launch the platform eight months faster than planned.”</p></blockquote>
-                    <h3>Kady Baker</h3>
-                    <small>Product Manager at Bookmark</small>
-                    <img src="assets/avatar-kady.jpg" alt="kady">
-                </article>
-                <article class="review">
-                    <img src="assets/icon-quotes.svg" alt="quotes">
-                    <blockquote><p>“We needed to automate our entire onboarding process. The team came in and built out the whole journey. Since going live, user retention has gone through the roof!”</p></blockquote>
-                    <h3>Aiysha Reese</h3>
-                    <small>Founder of Manage</small>
-                    <img src="assets/avatar-aiysha.jpg" alt="aiysha">
-                </article>
-                <article class="review">
-                    <img src="assets/icon-quotes.svg" alt="quotes">
-                    <blockquote><p>“Amazing. Our team helped us build an app that delivered a new experience for hiring a physio. The launch was an instant success with 100k downloads in the first month.”</p></blockquote>
-                    <h3>Arthur Clarke</h3>
-                    <small>Co-founder of MyPhysio</small>
-                    <img src="assets/avatar-arthur.jpg" alt="arthur">
-                </article>
-            </section>
-        </section>
+            <div class="reviews">
+                <div class="review">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="67" height="56">
+                        <path fill="#2C6269" d="M51.273 56c4.638 0 8.368-1.322 11.19-3.967 2.823-2.645 4.235-5.799 4.235-9.46 0-2.95-.429-5.494-1.286-7.63a197.251 197.251 0 01-2.495-6.562c-.806-2.237-1.21-4.933-1.21-8.087 0-2.746.454-5.798 1.361-9.155C63.976 7.782 65.286 4.069 67 0H55.356c-3.73 3.662-7.032 7.833-9.905 12.512-2.873 4.68-5.166 9.359-6.88 14.038C36.857 31.23 36 35.4 36 39.063c0 5.391 1.361 9.562 4.083 12.512C42.805 54.525 46.535 56 51.273 56zm-36 0c4.638 0 8.368-1.322 11.19-3.967 2.823-2.645 4.235-5.799 4.235-9.46 0-2.95-.429-5.494-1.286-7.63a197.251 197.251 0 01-2.495-6.562c-.806-2.237-1.21-4.933-1.21-8.087 0-2.746.454-5.798 1.361-9.155C27.976 7.782 29.286 4.069 31 0H19.356c-3.73 3.662-7.032 7.833-9.905 12.512-2.873 4.68-5.166 9.359-6.88 14.038C.857 31.23 0 35.4 0 39.063c0 5.391 1.361 9.562 4.083 12.512C6.805 54.525 10.535 56 15.273 56z" />
+                    </svg>
+                    <blockquote>
+                        <p>"The team perfectly fit the specialised skill set required. They focused on the most essential features helping us launch the platform eight months faster than planned."</p>
+                    </blockquote>
+                    <section class="author">
+                        <span>Kady Baker</span>
+                        <span>Product Manager at Bookmark</span>
+                        <img src="assets\avatar-kady.jpg" alt="kady">
+                    </section>
+                </div>
+                <div class="review">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="67" height="56">
+                        <path fill="#2C6269" d="M51.273 56c4.638 0 8.368-1.322 11.19-3.967 2.823-2.645 4.235-5.799 4.235-9.46 0-2.95-.429-5.494-1.286-7.63a197.251 197.251 0 01-2.495-6.562c-.806-2.237-1.21-4.933-1.21-8.087 0-2.746.454-5.798 1.361-9.155C63.976 7.782 65.286 4.069 67 0H55.356c-3.73 3.662-7.032 7.833-9.905 12.512-2.873 4.68-5.166 9.359-6.88 14.038C36.857 31.23 36 35.4 36 39.063c0 5.391 1.361 9.562 4.083 12.512C42.805 54.525 46.535 56 51.273 56zm-36 0c4.638 0 8.368-1.322 11.19-3.967 2.823-2.645 4.235-5.799 4.235-9.46 0-2.95-.429-5.494-1.286-7.63a197.251 197.251 0 01-2.495-6.562c-.806-2.237-1.21-4.933-1.21-8.087 0-2.746.454-5.798 1.361-9.155C27.976 7.782 29.286 4.069 31 0H19.356c-3.73 3.662-7.032 7.833-9.905 12.512-2.873 4.68-5.166 9.359-6.88 14.038C.857 31.23 0 35.4 0 39.063c0 5.391 1.361 9.562 4.083 12.512C6.805 54.525 10.535 56 15.273 56z" />
+                    </svg>
+                    <blockquote>
+                        <p>"We needed to automate our entire onboarding process. The team came in and built out the whole journey. Since going live, user retention has gone through the roof!"</p>
+                    </blockquote>
+                    <section class="author">
+                        <span>Aiysha Reese</span>
+                        <span>Founder of Manage</span>
+                        <img src="assets\avatar-aiysha.jpg" alt="kady">
+                    </section>
+                </div>
+                <div class="review">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="67" height="56">
+                        <path fill="#2C6269" d="M51.273 56c4.638 0 8.368-1.322 11.19-3.967 2.823-2.645 4.235-5.799 4.235-9.46 0-2.95-.429-5.494-1.286-7.63a197.251 197.251 0 01-2.495-6.562c-.806-2.237-1.21-4.933-1.21-8.087 0-2.746.454-5.798 1.361-9.155C63.976 7.782 65.286 4.069 67 0H55.356c-3.73 3.662-7.032 7.833-9.905 12.512-2.873 4.68-5.166 9.359-6.88 14.038C36.857 31.23 36 35.4 36 39.063c0 5.391 1.361 9.562 4.083 12.512C42.805 54.525 46.535 56 51.273 56zm-36 0c4.638 0 8.368-1.322 11.19-3.967 2.823-2.645 4.235-5.799 4.235-9.46 0-2.95-.429-5.494-1.286-7.63a197.251 197.251 0 01-2.495-6.562c-.806-2.237-1.21-4.933-1.21-8.087 0-2.746.454-5.798 1.361-9.155C27.976 7.782 29.286 4.069 31 0H19.356c-3.73 3.662-7.032 7.833-9.905 12.512-2.873 4.68-5.166 9.359-6.88 14.038C.857 31.23 0 35.4 0 39.063c0 5.391 1.361 9.562 4.083 12.512C6.805 54.525 10.535 56 15.273 56z" />
+                    </svg>
+                    <blockquote>
+                        <p>"Amazing. Our team helped us build an app that delivered a new experience for hiring a physio. The launch was an instand success with 100k downloads in the first month."</p>
+                    </blockquote>
+                    <section class="author">
+                        <span>Arthur Clarke</span>
+                        <span>Co-founder of MyPhysio</span>
+                        <img src="assets\avatar-arthur.jpg" alt="kady">
+                    </section>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
-        <section class="ready">
-            <h2>Ready to get started?</h2>
-            <a href="contact.html">contact us</a>
+        <section class="above-footer">
+            <div class="contact-us">
+                <h6>Ready to get started?</h6>
+                <a href="contact.html">
+                    <button>contact us</button>
+                </a>
+            </div>
         </section>
-        <section class="footer">
-            <img class="logo" aria-label="my team" src="assets/logo.svg" alt="logo">
-            <ul>
-                <li>
+        <div class="down-footer">
+            <div class="my-team">
+                <img class="logo" aria-label="my team" src="assets/logo.svg" alt="logo">
+                <div class="home-about">
                     <a href="index.html">home</a>
-                </li>
-                <li>
                     <a href="about.html">about</a>
-                </li>
-            </ul>
-            <address>
-                987 Hillcrest Lane
-                <br>
-                Irvine, CA
-                <br>
-                California 92714
-                <br>
-                Call Us: 949-833-7432
-            </address>
-        </section>
-        <section class="social-links">
-            <ul class="social">
-                <li>
-                    <a href="https://facebook.com">
-                        <img src="assets/icon-facebook.svg" alt="facebook">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://pinterest.com">
-                        <img src="assets/icon-pinterest.svg" alt="pinterest">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://x.com">
-                        <img src="assets/icon-twitter.svg" alt="X">
-                    </a>
-                </li>
-            </ul>
-            <p>Copyright 2020. All Rights Reserved</p>
-        </section>
+                </div>
+            </div>
+            <div class="address-socials">
+                <address class="address">
+                    987 Hillcrest Lane
+                    <br>
+                    Irvine, CA
+                    <br>
+                    California 92714
+                    <br>
+                    Call Us: 949-833-7432
+                </address>
+                <div class="socials">
+                    <ul class="social-icons">
+                        <li>
+                            <a href="https://facebook.com">
+                                <img src="assets/icon-facebook.svg" alt="facebook">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://pinterest.com">
+                                <img src="assets/icon-pinterest.svg" alt="pinterest">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://x.com">
+                                <img src="assets/icon-twitter.svg" alt="X">
+                            </a>
+                        </li>
+                    </ul>
+                    <span>Copyright 2020. All Rights Reserved</span>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
