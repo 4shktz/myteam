@@ -219,3 +219,83 @@ nav.is-active {
 .down-main svg {
     position: absolute;
 }
+
+.review-svg {
+    left: 0;
+    top: 0;
+}
+
+.bottom-review-svg {
+    bottom: 0;
+    right: 0;
+}
+
+.down-main h2 {
+    font-size: 32px;
+    line-height: 32px;
+    margin-bottom: 5rem;
+    color: white;
+}
+
+h2 span {
+    color: #79C8C7;
+}
+
+.down-main img {
+    width: 62px;
+    border-radius: 50%;
+    border: solid white 1px;
+}
+
+.review {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.review svg {
+    top: -12%;
+    right: calc(50% - 33.5px);
+}
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+}
+
+.reviews p {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    line-height: 25px;
+    z-index: 2;
+    letter-spacing: 1.5px;
+}
+
+.author {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.author img {
+    margin-top: 0.5rem;
+}
+
+.author * {
+    margin-bottom: 0.5rem;
+}
+
+.author span:nth-child(1) {
+    font-weight: 700;
+    font-size: 18px;
+    color: #79C8C7;
+}
+
+.author span:nth-child(2) {
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 700;
+}
