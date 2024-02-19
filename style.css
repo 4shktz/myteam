@@ -146,3 +146,76 @@ nav.is-active {
     font-weight: 500;
     cursor: pointer;
 }
+
+.above-main {
+    position: relative;
+    padding: 4rem 1.5rem;
+    overflow: hidden;
+    background-color: #012F34;
+}
+
+.main-pattern {
+    position: absolute;
+    right: -100px;
+    top: 0;
+}
+
+.above-main hr {
+    width: 50px;
+    height: 3px;
+    background: #F67E7E;
+    border: none;
+    margin-bottom: 2rem;
+}
+
+.above-main h2 {
+    font-size: 32px;
+    width: 60%;
+    font-weight: 700;
+    margin-bottom: 4rem;
+    color: white;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feature:nth-child(2) {
+    margin: 3rem 0;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.feature h4 {
+    font-weight: 700;
+    font-size: 18px;
+    margin: 1rem 0;
+    color: #F67E7E;
+}
+
+.feature p {
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+}
+
+.down-main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10rem 1.5rem 5rem 1.5rem;
+    background-color: #004047;
+}
+
+.down-main svg {
+    position: absolute;
+}
