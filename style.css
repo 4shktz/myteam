@@ -299,3 +299,116 @@ h2 span {
     font-style: italic;
     font-weight: 700;
 }
+
+.above-footer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    overflow: hidden;
+    background-color: #F67E7E;
+}
+
+.above-footer svg {
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+}
+
+.contact-us {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 60%;
+}
+
+.contact-us h6 {
+    font-size: 32px;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    color: #012F34;
+}
+
+.contact-us button {
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    background-color: transparent;
+    border: solid #012F34 2px;
+    font-size: 20px;
+    color: #012F34;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.contact-us button:hover {
+    transition: 0.4s;
+    background-color: #002529;
+    color: white;
+}
+
+.down-footer {
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #002529;
+}
+
+.home-about {
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+    margin: 1.5rem 0;
+}
+
+.home-about *:hover {
+    cursor: pointer;
+    color: #F67E7E;
+    transition: 0.4s;
+}
+
+address {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(201, 198, 198);
+}
+
+.down-footer a {
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.social-icons svg:hover {
+    fill: #F67E7E;
+    transition: 0.4s;
+}
+
+.social-icons svg {
+    fill: white;
+}
+
+.socials span {
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 1rem;
+    color: gray;
+}
+
+.socials ul {
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+}
