@@ -151,7 +151,7 @@ h2 span {
     font-size: 32px;
 }
 
-.above-main div {
+.above-container div {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -160,7 +160,7 @@ h2 span {
     margin-bottom: 1.5rem;
 }
 
-.above-main div p {
+.above-container div p {
     font-size: 18px;
     font-weight: 500;
     width: 80%;
@@ -390,17 +390,17 @@ address {
         overflow: hidden;
     }
 
-    .above-main {
+    .above-container {
         width: 100%;
     }
 
-    .above-main div {
+    .above-container div {
         width: 80%;
         justify-content: center;
         margin-left: 1rem;
     }
 
-    .above-main div p {
+    .above-container div p {
         margin-left: 1rem;
     }
 
@@ -452,5 +452,86 @@ address {
         flex-direction: row;
         justify-content: end;
 
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    header {
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+
+    main {
+        display: flex;
+        flex-direction: row;
+        text-align: start;
+    }
+
+    footer {
+        height: 100%;
+    }
+
+    main {
+        height: auto;
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+   
+    .above-container {
+        width: 100%;
+    }
+
+    .above-container h2 {
+        font-size: 4rem; 
+        line-height: 5rem; 
+    }
+
+    .reasons {
+        margin-top: 2rem;
+    }
+
+    .above-container div {
+        width: 100%;
+        margin-left: auto;
+        justify-content: start;
+    }
+
+    .down-container {
+        margin: auto;
+        width: 35rem;
+    }
+
+    footer {
+        display: flex;
+        padding: 2rem 10rem;
+        align-items: center;
+    }
+
+    .home-about {
+        margin-bottom: 0;
+        margin-top: 2.5rem;
+    }
+
+    .address-socials {
+        display: flex;
+        text-align: start;
+        margin-left: 8rem;
+    }
+
+    address {
+        margin: 5px;
+    }
+
+    .social-icons {
+        position: static;
+    }
+
+    .socials {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: end;
+        text-align: end;
+        width: 500px;
+        margin: 0;
     }
 }
