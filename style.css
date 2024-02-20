@@ -413,3 +413,140 @@ address {
     width: 100px;
     justify-content: space-between;
 }
+
+/*
+
+TABLET
+
+*/
+
+@media only screen and (min-width: 768px) {
+    nav {
+        display: block;
+        right: auto;
+        position: static;
+        min-height: fit-content;
+        background-color: transparent;
+        margin-left: 2rem;
+    }
+
+    header p {
+        padding: 1rem 9rem;
+    }
+
+    .hamburger-button {
+        display: none;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0;
+    }
+
+    .links a {
+        margin: 0;
+    }
+
+    .links a:hover {
+        cursor: pointer;
+        color: #F67E7E;
+        transition: 0.4s;
+    }
+
+    .link a {
+        margin: 0;
+        margin-right: 2rem
+    }
+
+    .contact {
+        margin: 0;
+        margin-bottom: 0;
+    }
+
+    .links button {
+        padding: 0.75rem 1rem;
+        margin: auto;
+    }
+
+    .links button:hover {
+        cursor: pointer;
+        background-color: white;
+        color: #012F34;
+        transition: 0.4s;
+    }
+
+    .nav-svg {
+        display: none;
+    }
+
+    .link {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .about p {
+        padding: 1rem 8rem;
+        font-weight: 700;
+    }
+
+    .header-svg {
+        bottom: 0;
+    }
+
+    .down-main {
+        padding: 7rem 4rem 0;
+    }
+
+    .down-main h2 {
+        width: 450px;
+    }
+
+    .above-footer {
+        height: 200px;
+    }
+
+    .contact-us {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 80%;
+    }
+
+    .down-footer {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: start;
+        text-align: end;
+        padding: 2rem;
+        position: relative;
+    }
+
+    .address-socials {
+        width: 100vw;
+
+    }
+    
+    address {
+        width: 100%;
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        left: 2rem;
+        bottom: 2rem;
+    }
+
+    .socials ul {
+        width: 120px
+    }
+
+    .socials {
+        flex-direction: row;
+        justify-content: end;
+
+    }
+}
