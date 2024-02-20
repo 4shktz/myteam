@@ -265,12 +265,12 @@ h2 span {
     flex-direction: column;
 }
 
-.reviews p {
+.reviews blockquote {
+    margin-bottom: 1rem;
     font-size: 15px;
     font-weight: 500;
-    margin-bottom: 1rem;
     line-height: 25px;
-    z-index: 2;
+    z-index: 99;
     letter-spacing: 1.5px;
 }
 
@@ -548,5 +548,139 @@ TABLET
         flex-direction: row;
         justify-content: end;
 
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    header {
+        position: relative;
+        padding: 2rem 10rem;
+        height: 700px;
+    }
+
+    header h2 {
+        font-size: 70px;
+        line-height: 40px;
+        margin: 0;
+    }
+
+    header p {
+        padding: 0;
+        width: 350px;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .description {
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+        text-align: start;
+        align-items: end;
+        width: 100%;
+        margin-top: 7rem;
+    }
+
+    .description hr {
+        display: block;
+        width: 50px;
+        height: 4px;
+        background-color: #79C8C7;
+        border: none;
+        position: absolute;
+        top: -100px;
+    }
+
+    .header-svg {
+        position: absolute;
+        bottom: 0;
+        right: 10rem;
+    }
+
+    .description-svg {
+        display: block;
+        position: absolute;
+        left: -260px;
+        top: calc(50% - 100px);
+    }
+
+    .above-main {
+        display: flex;
+        justify-content: space-around;
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }
+
+    .above-main h2 {
+        width: 330px;
+        margin-right: 2rem;
+    }
+
+    .main-pattern {
+        top: auto;
+        bottom: 0;
+    }
+
+    .features {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 600px;
+    }
+
+    .feature {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 3.1rem;
+    }
+
+    .feature-description {
+        align-items: center;
+        width: 400px;
+    }
+
+    .reviews {
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    .contact-us {
+        width: 60%;
+    }
+
+    .down-footer {
+        display: flex;
+        padding: 2rem 10rem;
+        align-items: center;
+    }
+
+    .home-about {
+        margin-bottom: 0;
+        margin-top: 2.5rem;
+    }
+
+    address li {
+        margin: 5px;
+    }
+
+    .address-socials {
+        display: flex;
+        text-align: start;
+        margin-left: 8rem;
+    }
+
+    .social-icons {
+        position: static;
+    }
+
+    .socials {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: end;
+        text-align: end;
+        width: 500px;
+        margin: 0;
     }
 }
