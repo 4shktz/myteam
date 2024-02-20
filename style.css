@@ -498,6 +498,30 @@ address {
         width: 450px;
     }
 
+    .features {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        margin-left: 10%;
+        height: 600px;
+    }
+
+    .above-main h2 {
+        margin-left: 10%;
+    }
+
+    .feature {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 3.1rem;
+    }
+
+    .feature-description {
+        align-items: center;
+        width: 400px;
+    }
+
     .above-footer {
         height: 200px;
     }
@@ -541,7 +565,6 @@ address {
     .socials {
         flex-direction: row;
         justify-content: end;
-
     }
 }
 
