@@ -101,7 +101,7 @@ nav {
     width: 100%;
     min-height: 100vh;
     background-color: #004047;
-    z-index: 98;
+    z-index: 9;
     overflow: hidden;
     transition: 0.4s;
 }
@@ -110,7 +110,7 @@ nav.is-active {
     right: 0;
 }
 
-.website-info {
+.link {
     display: flex;
     flex-direction: column;
 }
@@ -133,6 +133,7 @@ nav.is-active {
     position: absolute;
     bottom: 0;
     right: -100px;
+    z-index: 99;
 }
 
 .links button {   
