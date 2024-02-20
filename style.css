@@ -414,12 +414,6 @@ address {
     justify-content: space-between;
 }
 
-/*
-
-TABLET
-
-*/
-
 @media only screen and (min-width: 768px) {
     nav {
         display: block;
