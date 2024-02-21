@@ -461,3 +461,168 @@ address {
     width: 100px;
     justify-content: space-between;
 }
+
+@media only screen and (min-width: 768px) {
+    .hamburger-button {
+        display: none;
+    }
+
+    nav {
+        display: block;
+        right: auto;
+        position: static;
+        min-height: fit-content;
+        background-color: transparent;
+        margin-left: 2rem;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0;
+    }
+
+    .links a {
+        margin: 0;
+    }
+
+    .links a:hover {
+        cursor: pointer;
+        color: #F67E7E;
+        transition: 0.4s;
+    }
+
+    .link a {
+        margin: 0;
+        margin-right: 2rem
+    }
+
+    .contact {
+        margin: 0;
+        margin-bottom: 0;
+    }
+
+    .links button {
+        padding: 0.75rem 1rem;
+        margin: auto;
+    }
+
+    .links button:hover {
+        cursor: pointer;
+        background-color: white;
+        color: #012F34;
+        transition: 0.4s;
+    }
+
+    .nav-svg {
+        display: none;
+    }
+
+    .link {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .about p {
+        padding: 1rem 8rem;
+        font-weight: 700;
+    }
+
+    .header-svg {
+        bottom: 0;
+    }
+
+    .main-svg {
+        top: 0;
+    }
+
+    .meet-directors {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        gap: 1rem;
+        row-gap: 3rem;
+        width: 80vw;
+    }
+
+    .director {
+        width: 100%;
+    }
+
+    .director:last-child {
+        margin-bottom: 0;
+    }
+
+    .down-container {
+        padding: 5rem 2rem 4rem;
+    }
+
+    .clients {
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 1.5rem;
+    }
+
+    .down-container img:nth-child(1) {
+        margin: 0;
+    }
+
+    .clients img {
+        height: 100%;
+        width: 120px;
+        margin: 0;
+    }
+
+    .clients-svg {
+        left: 0;
+    }
+
+    .above-footer {
+        height: 200px;
+    }
+
+    .contact-us {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 80%;
+    }
+
+    .down-footer {
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: end;
+        padding: 2rem;
+        align-items: start;
+        position: relative;
+    }
+
+    .address-socials {
+        width: 100vw;
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        left: 2rem;
+        bottom: 2rem;
+    }
+
+    .socials ul {
+        width: 120px;
+    }
+
+
+    address {
+        width: 100%;
+    }
+
+    .socials {
+        flex-direction: row;
+        justify-content: end;
+    }
+}
