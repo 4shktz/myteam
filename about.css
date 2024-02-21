@@ -626,3 +626,91 @@ address {
         justify-content: end;
     }
 }
+
+@media only screen and (min-width: 1024px) {
+    header {
+        position: relative;
+        padding: 2rem 10rem;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: row;
+        text-align: start;
+    }
+
+    .about p {
+        margin-left: 2rem;
+        padding-top: 1.5rem;
+        margin-bottom: 5rem;
+    }
+
+    .about hr {
+        display: block;
+        width: 50px;
+        height: 4px;
+        background-color: #F67E7E;
+        border: none;
+        position: absolute;
+        top: 0;
+        left: 10rem;
+    }
+
+    .meet-directors {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .down-container {
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
+
+    .clients {
+        margin-top: 3rem;
+        justify-content: space-evenly;
+    }
+
+    .clients img {
+        width: 150px;
+    }
+
+    .clients-svg {
+        top: 0;
+    }
+
+    .down-footer {
+        display: flex;
+        padding: 2rem 10rem;
+        align-items: center;
+    }
+
+
+    .home-about {
+        margin-bottom: 0;
+        margin-top: 2.5rem;
+    }
+
+    .address-socials {
+        display: flex;
+        text-align: start;
+        margin-left: 8rem;
+    }
+
+    .address li {
+        margin: 5px;
+    }
+
+    .social-icons {
+        position: static;
+    }
+
+    .socials {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: end;
+        text-align: end;
+        width: 500px;
+        margin: 0;
+    }
+}
