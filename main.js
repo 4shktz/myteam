@@ -5,6 +5,9 @@ const submitBtn = document.querySelector('#submit-button');
 const inputs = document.querySelectorAll('.input');
 const required = document.querySelectorAll('.required');
 
+const plusDiv = document.querySelectorAll('.plus-btn');
+const cardback = document.querySelectorAll('.card-back');
+
 menuBtn.addEventListener('click', () => {
     menuBtn.classList.toggle('is-active');
     mobileMenu.classList.toggle('is-active');
@@ -26,3 +29,10 @@ submitBtn.addEventListener('click', () => {
         }
     })
 })
+
+plusDiv.forEach((plus, el) => {
+    plus.addEventListener('click', () => {
+        plus.classList.toggle('is-active');
+        cardback[el].classList.toggle('card-back-active');
+    });
+});
