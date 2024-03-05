@@ -1,3 +1,12 @@
+:root {
+    --primary-bg-color: #014E56;
+    --secondary-bg-color: #012F34;
+    --accent-bg-color: #F67E7E;
+    --text-primary-color: #F67E7E;
+    --text-secondary-color: #79C8C7;
+    --text-accent-color: #012F34;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -16,7 +25,7 @@ header {
     align-items: center;
     padding: 2rem 1rem 0 1rem;
     text-align: center;
-    background-color: #014e56;
+    background-color: var(--primary-bg-color);
 }
 
 .header {
@@ -69,7 +78,7 @@ header h2 {
 }
 
 header h2 span {
-    color: #F67E7E;
+    color: var(--text-primary-color);
 }
 
 header p {
@@ -149,7 +158,7 @@ nav.is-active {
     position: relative;
     padding: 4rem 1.5rem;
     overflow: hidden;
-    background-color: #012F34;
+    background-color: var(--secondary-bg-color);
 }
 
 .main-pattern {
@@ -161,7 +170,7 @@ nav.is-active {
 .above-main hr {
     width: 50px;
     height: 3px;
-    background: #F67E7E;
+    background: var(--accent-bg-color);
     border: none;
     margin-bottom: 2rem;
 }
@@ -195,7 +204,7 @@ nav.is-active {
     font-weight: 700;
     font-size: 18px;
     margin: 1rem 0;
-    color: #F67E7E;
+    color: var(--text-primary-color);
 }
 
 .feature p {
@@ -236,7 +245,7 @@ nav.is-active {
 }
 
 h2 span {
-    color: #79C8C7;
+    color: var(--text-secondary-color);
 }
 
 .down-main img {
@@ -289,7 +298,7 @@ h2 span {
 .author span:nth-child(1) {
     font-weight: 700;
     font-size: 18px;
-    color: #79C8C7;
+    color: var(--text-secondary-color);
 }
 
 .author span:nth-child(2) {
@@ -305,7 +314,7 @@ h2 span {
     align-items: center;
     height: 350px;
     overflow: hidden;
-    background-color: #F67E7E;
+    background-color: var(--accent-bg-color);
 }
 
 .above-footer svg {
@@ -326,16 +335,16 @@ h2 span {
     font-size: 32px;
     font-weight: 900;
     margin-bottom: 1rem;
-    color: #012F34;
+    color: var(--text-accent-color);
 }
 
 .contact-us .contact {
     padding: 1rem 2rem;
     border-radius: 30px;
     background-color: transparent;
-    border: solid #012F34 2px;
+    border: solid var(--text-accent-color) 2px;
     font-size: 20px;
-    color: #012F34;
+    color: var(--text-accent-color);
     font-weight: 900;
     cursor: pointer;
 }
@@ -365,7 +374,7 @@ h2 span {
 
 .home-about *:hover {
     cursor: pointer;
-    color: #F67E7E;
+    color: var(--text-primary-color);
     transition: 0.4s;
 }
 
@@ -390,7 +399,7 @@ address {
 }
 
 .social-icons svg:hover {
-    fill: #F67E7E;
+    fill: var(--text-primary-color);
     transition: 0.4s;
 }
 
@@ -443,7 +452,7 @@ address {
 
     .links a:hover {
         cursor: pointer;
-        color: #F67E7E;
+        color: var(--text-primary-color);
         transition: 0.4s;
     }
 
@@ -465,7 +474,7 @@ address {
     .links .contact:hover {
         cursor: pointer;
         background-color: white;
-        color: #012F34;
+        color: var(--text-accent-color);
         transition: 0.4s;
     }
 
