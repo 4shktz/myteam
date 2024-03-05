@@ -1,3 +1,12 @@
+:root {
+    --primary-bg-color: #014E56;
+    --secondary-bg-color: #012F34;
+    --accent-bg-color: #F67E7E;
+    --text-primary-color: #F67E7E;
+    --text-secondary-color: #79C8C7;
+    --text-accent-color: #012F34;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -16,7 +25,7 @@ header {
     align-items: center;
     padding: 2rem 1.5rem 4rem 1.5rem;
     text-align: center;
-    background-color: #014e56;
+    background-color: var(--primary-bg-color);
 }
 
 .logo {
@@ -126,7 +135,7 @@ main {
     text-align: center;
     padding: 1.5rem;
     overflow: hidden;
-    background-color: #014e56;
+    background-color: var(--primary-bg-color);
 }
 
 .reasons {
@@ -148,7 +157,7 @@ h2 {
 }
 
 h2 span {
-    color: #F67E7E;
+    color: var(--text-primary-color);
     font-size: 32px;
 }
 
@@ -202,7 +211,7 @@ h2 span {
 }
 
 .incorrect {
-    border-bottom: solid 1px #F67E7E !important;
+    border-bottom: solid 1px var(--text-primary-color) !important;
     transition: 0.4s;
 }
 
@@ -232,7 +241,7 @@ textarea {
 textarea::placeholder {
     font-size: 15px;
     font-weight: 500;
-    color: #79C8C7;
+    color: var(--text-secondary-color);
 }
 
 .down-container button {
@@ -244,7 +253,7 @@ textarea::placeholder {
     background-color: white;
     font-size: 18px;
     font-weight: 700;
-    color: #014e56;
+    color: var(--primary-bg-color);
     cursor: pointer;
     margin-top: 2rem;
 }
@@ -268,7 +277,7 @@ footer {
 
 .home-about *:hover {
     cursor: pointer;
-    color: #F67E7E;
+    color: var(--text-primary-color);
     transition: 0.4s;
 }
 
@@ -293,7 +302,7 @@ address {
 }
 
 .social-icons svg:hover {
-    fill: #F67E7E;
+    fill: var(--text-primary-color);
     transition: 0.4s;
 }
 
@@ -342,7 +351,7 @@ address {
 
     .links a:hover {
         cursor: pointer;
-        color: #F67E7E;
+        color: var(--text-primary-color);
         transition: 0.4s;
     }
 
@@ -364,7 +373,7 @@ address {
     .links .contact:hover {
         cursor: pointer;
         background-color: white;
-        color: #012F34;
+        color: var(--text-accent-color);
         transition: 0.4s;
     }
 
