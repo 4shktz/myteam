@@ -132,8 +132,9 @@ nav.is-active {
     z-index: 99;
 }
 
-.links button {   
+.links .contact {
     padding: 1rem 1rem;
+    text-align: center;
     width: 159px;
     border-radius: 30px;
     background-color: transparent;
@@ -328,7 +329,7 @@ h2 span {
     color: #012F34;
 }
 
-.contact-us button {
+.contact-us .contact {
     padding: 1rem 2rem;
     border-radius: 30px;
     background-color: transparent;
@@ -339,7 +340,7 @@ h2 span {
     cursor: pointer;
 }
 
-.contact-us button:hover {
+.contact-us .contact:hover {
     transition: 0.4s;
     background-color: #002529;
     color: white;
@@ -456,12 +457,12 @@ address {
         margin-bottom: 0;
     }
 
-    .links button {
+    .links .contact {
         padding: 0.75rem 1rem;
         margin: auto;
     }
 
-    .links button:hover {
+    .links .contact:hover {
         cursor: pointer;
         background-color: white;
         color: #012F34;
