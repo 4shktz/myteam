@@ -61,6 +61,8 @@ header p {
 
 .hamburger-button {
     position: relative;
+    /* position: fixed; AJOUTER CA EN JS 
+    margin-left: 18rem; */
     display: block;
     width: 35px;
     cursor: pointer;
@@ -105,6 +107,20 @@ nav {
 
 nav.is-active {
     right: 0;
+}
+
+.nav-opacity { /* FIX OPACITY */
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.nav-opacity-active {
+    display: block;
 }
 
 .link {

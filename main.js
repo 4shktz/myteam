@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const menuBtn = document.querySelector('.hamburger-button');
+    const navOpacity = document.querySelector('.nav-opacity');
     const mobileMenu = document.querySelector('nav');
 
     const plusDiv = document.querySelectorAll('.plus-btn');
@@ -7,6 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     menuBtn.addEventListener('click', () => {
         menuBtn.classList.toggle('is-active');
+        navOpacity.classList.toggle('nav-opacity-active');
         mobileMenu.classList.toggle('is-active');
     });
 
