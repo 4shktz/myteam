@@ -349,7 +349,7 @@ address {
         margin-left: 2rem;
     }
 
-    .links { /* NEED TO FIX NAV BAR */
+    .links {
         display: flex;
         flex-direction: row;
         align-items: center;

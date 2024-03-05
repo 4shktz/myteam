@@ -338,7 +338,7 @@ h2 span {
     color: var(--text-accent-color);
 }
 
-.contact-us .contact {
+.contact-us a {
     padding: 1rem 2rem;
     border-radius: 30px;
     background-color: transparent;
@@ -349,7 +349,7 @@ h2 span {
     cursor: pointer;
 }
 
-.contact-us .contact:hover {
+.contact-us a:hover {
     transition: 0.4s;
     background-color: #002529;
     color: white;
