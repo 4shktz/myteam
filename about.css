@@ -508,16 +508,6 @@ address {
         margin-right: 2rem
     }
 
-    .contact {
-        margin: 0;
-        margin-bottom: 0;
-    }
-
-    .links .contact {
-        padding: 0.75rem 1rem;
-        margin: auto;
-    }
-
     .links .contact:hover {
         cursor: pointer;
         background-color: white;
