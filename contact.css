@@ -144,8 +144,8 @@ main {
     margin-top: 3rem;
 }
 
-.reasons svg {
-    width: 72px;
+.reason-svg {
+    display: none;
 }
 
 h2 {
@@ -281,6 +281,10 @@ footer {
     transition: 0.4s;
 }
 
+.home-about *:visited {
+    color: white;
+}
+
 address {
     margin-bottom: 10px;
     font-weight: 600;
@@ -414,6 +418,13 @@ address {
         margin-left: 1rem;
     }
 
+    .reason-svg {
+        display: block;
+        position: absolute;
+        left: -100px;
+        top: calc(10% - 100px);
+    }
+
     .contact-main-svg {
         position: absolute;
         left: -100px;
@@ -486,7 +497,7 @@ address {
         padding-left: 10rem;
         padding-right: 10rem;
     }
-   
+
     .above-container {
         width: 100%;
     }
@@ -498,6 +509,13 @@ address {
 
     .reasons {
         margin-top: 2rem;
+    }
+
+    .reason-svg {
+        display: block;
+        position: absolute;
+        left: -100px;
+        top: calc(20% - 100px);
     }
 
     .above-container div {
