@@ -95,7 +95,7 @@ nav {
     position: fixed;
     top: 0;
     right: -100%;
-    width: 100%;
+    width: 70%;
     min-height: 100vh;
     background-color: #004047;
     z-index: 98;
