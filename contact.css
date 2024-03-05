@@ -28,6 +28,14 @@ header {
     background-color: var(--primary-bg-color);
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 4rem;
+}
+
 .logo {
     width: 120px;
 }
@@ -332,7 +340,7 @@ address {
         display: none;
     }
 
-    nav { /* NEED TO FIX NAV BAR */
+    nav { 
         display: block;
         right: auto;
         position: static;
@@ -341,7 +349,7 @@ address {
         margin-left: 2rem;
     }
 
-    .links {
+    .links { /* NEED TO FIX NAV BAR */
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -379,6 +387,16 @@ address {
         background-color: white;
         color: var(--text-accent-color);
         transition: 0.4s;
+    }
+
+    .link a {
+        margin: 0;
+        margin-right: 2rem
+    }
+
+    .link {
+        display: flex;
+        flex-direction: row;
     }
 
     .nav-svg {
@@ -486,16 +504,23 @@ address {
         display: flex;
         flex-direction: row;
         text-align: start;
+        height: auto;
+        padding-left: 10rem;
+        padding-right: 10rem;
     }
 
     footer {
         height: 100%;
     }
 
-    main {
-        height: auto;
-        padding-left: 10rem;
-        padding-right: 10rem;
+    .link a {
+        margin: 0;
+        margin-right: 2rem
+    }
+
+    .link {
+        display: flex;
+        flex-direction: row;
     }
 
     .above-container {
