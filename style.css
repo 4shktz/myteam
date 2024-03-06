@@ -115,6 +115,20 @@ nav.is-active {
     right: 0;
 }
 
+.nav-opacity { 
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.nav-opacity-active {
+    display: block;
+}
+
 .link {
     display: flex;
     flex-direction: column;

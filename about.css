@@ -109,7 +109,7 @@ nav.is-active {
     right: 0;
 }
 
-.nav-opacity { /* FIX OPACITY */
+.nav-opacity { 
     position: fixed;
     top: 0;
     left: 0;
